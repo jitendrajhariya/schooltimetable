@@ -1,4 +1,4 @@
-1. run npm install ########
+1. run npm install on terminal########
 2. once node module installed ### 
 3. you can write node read-file.js in termical so, it will execute the same file ####
 4. read-file will read timetable_school.csv csvfile and output in the terminal only ###############
