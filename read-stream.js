@@ -8,4 +8,4 @@ const toObject = csvjson.stream.toObject();
 createReadStream('./timetable_school.csv', 'utf-8')
     .pipe(toObject)
     .pipe(stringify)
-    .pipe(createWriteStream('./test-data-output-stream.json'));
+    .pipe(createWriteStream('./schooltimetableinJsonOutput.json'));
